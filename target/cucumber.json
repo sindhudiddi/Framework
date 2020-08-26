@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5677694600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Initialize()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct user name and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-user-name-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 102400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13711984100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to login page of the application",
+            "match": {
+              "location": "LoginStepdef.User_navigated_to_login_page_of_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488744600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User entered the creds",
+            "match": {
+              "location": "LoginStepdef.userEnteredTheCreds(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "admin2@gmail.com",
+                  "12345678"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89369000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicked on ok button",
+            "match": {
+              "location": "LoginStepdef.userClickedOnOkButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122405600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to see the userform page",
+            "match": {
+              "location": "LoginStepdef.userShouldBeAbleToSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "User tries to login",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

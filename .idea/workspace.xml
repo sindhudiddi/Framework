@@ -22,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -40,10 +40,10 @@
       <recent name="C:\Users\sindhu.diddi\Desktop\BDD\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Login (1)">
-    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Runner">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Features/Login.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="BDD" />
@@ -59,9 +59,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="BDD" />
@@ -97,14 +99,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-9.0.4" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\sindhu.diddi\Desktop\BDD\target" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: Login" />
-      <item itemvalue="Cucumber java.Feature: Login (1)" />
+      <item itemvalue="Cucumber java.Feature: Login1" />
       <item itemvalue="Cucumber java.Feature: LoginProd" />
+      <item itemvalue="TestNG.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: Login (1)" />
+        <item itemvalue="TestNG.Runner" />
+        <item itemvalue="Cucumber java.Feature: Login1" />
         <item itemvalue="Cucumber java.Feature: LoginProd" />
         <item itemvalue="Cucumber java.Feature: Login" />
       </list>
@@ -124,38 +156,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="205" y="39" width="1092" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597325964634">
+    <state x="211" y="0" width="1092" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598441028994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="205" y="39" width="1092" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597325964634" />
+    <state x="211" y="0" width="1092" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598441028994" />
+    <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598439206558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598439206558" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1597322508678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597322508678" />
+    <state x="480" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598436783300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="480" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1598436783300" />
     <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597314356687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1597314356687" />
-    <state x="531" y="125" key="FileChooserDialogImpl" timestamp="1597325958190">
+    <state x="531" y="125" key="FileChooserDialogImpl" timestamp="1598441023571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="125" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597325958190" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597403470956">
+    <state x="531" y="125" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598441023571" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598441125007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597403470956" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597403470956">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598441125007" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598441125007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597403470956" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597403470956">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598441125007" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598441125007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597403470956" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597403470956">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598441125007" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598441125007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597403470956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598441125007" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597328698450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,26 +212,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597328698450" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597400572303">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598270509321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597400572303" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597398877616">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1598270509321" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1598269996702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597398877616" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598269996702" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598434701480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598434701480" />
     <state x="442" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597317354133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1597317354133" />
+    <state x="65" y="0" key="new project wizard" timestamp="1597929297167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1597929297167" />
     <state x="435" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1597315228019">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597315228019" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1597325346596">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1598438145149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597325346596" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598438145149" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
